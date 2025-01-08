@@ -1,7 +1,5 @@
 package in.day7.logicalprogram.number.prime.main;
 
-import java.util.Scanner;
-
 import in.day7.logicalprogram.number.prime.PrimeNumber;
 
 public class MainPrimeNumber {

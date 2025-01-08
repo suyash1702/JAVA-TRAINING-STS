@@ -8,6 +8,11 @@ public class MainPatternSolution {
 	        System.out.println("TASK 1 :");
 	        solution.pyramidofSqrCube();
 	    }
+
+		private void pyramidofSqrCube() {
+			// TODO Auto-generated method stub
+			
+		}
 	}
 
 

@@ -1,5 +1,7 @@
 package in.day8.series.task;
 
+import in.day8.series.task.main.MainPatternSolution;
+
 public class PatternSolutions {
     private int limit;
     
@@ -27,9 +29,5 @@ public class PatternSolutions {
         }
     }
     
-    public static void main(String[] args) {
-        MainPatternSolution solution = new MainPatternSolution();
-        System.out.println("TASK 1 :");
-        solution.pyramidofSqrCube();
-    }
+    
 }
