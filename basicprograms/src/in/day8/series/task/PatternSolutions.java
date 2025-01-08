@@ -1,16 +1,11 @@
-package day8.series.task;
+package in.day8.series.task;
 
-public class MainPatternSolution {
+public class PatternSolutions {
     private int limit;
     
     // Constructor
-    public MainPatternSolution() {
+    public PatternSolutions() {
         this.limit = 3; // Default limit for the given pattern
-    }
-    
-    // Setter for limit if needed
-    public void setLimit(int limit) {
-        this.limit = limit;
     }
     
     public void pyramidofSqrCube() {
@@ -30,5 +25,11 @@ public class MainPatternSolution {
             }
             System.out.println();
         }
+    }
+    
+    public static void main(String[] args) {
+        MainPatternSolution solution = new MainPatternSolution();
+        System.out.println("TASK 1 :");
+        solution.pyramidofSqrCube();
     }
 }
